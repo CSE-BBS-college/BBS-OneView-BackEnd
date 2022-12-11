@@ -1,0 +1,21 @@
+{
+  "name": "bbs_oneview_backend",
+  "version": "0.0.2",
+  "description": "Backend for BBS_OneView Project made as submission to Mini Project for %th Semester.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "actuallyabhi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
